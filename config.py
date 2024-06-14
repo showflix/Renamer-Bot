@@ -2,18 +2,18 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+    TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7174676764:AAFJGZBLpJCMwh19P509WZ-4o0w1CJR38t4")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", ""))
-    API_HASH = os.environ.get("API_HASH" "")
+    APP_ID = int(os.environ.get("APP_ID", "14959925"))
+    API_HASH = os.environ.get("API_HASH" "a8d3503be0455c779a17193e48cab451")
     # Update channel for Force Subscribe
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "cartoon_seriesz")
+    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL", "showflix_movie")
     # log channel
-    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "")
+    LOG_CHANNEL = os.environ.get("LOG_CHANNEL", "-1001562036736")
     # Get these values from my.telegram.org
-    CHAT_ID = os.environ.get("CHAT_ID", "")
+    CHAT_ID = os.environ.get("CHAT_ID", "1266575528")
     # Array to store users who are authorized to use the bot
-    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "677682427").split())
+    AUTH_USERS = set(int(x) for x in os.environ.get("AUTH_USERS", "1266575528").split())
     # Banned Unwanted Members..
     BANNED_USERS = []
     # the download location, where the HTTP Server runs
@@ -38,5 +38,5 @@ class Config(object):
     # watermark file
     DEF_WATER_MARK_FILE = ""
     # Database url
-    DB_URI = os.environ.get("DATABASE_URL", "postgres://wmynzqfvxqvhah:78b6b1191cd6d4ae196239a2e091d43cff30e5fe6bbbec7b48e683ff8b57ec3e@ec2-54-85-80-92.compute-1.amazonaws.com:5432/dbuuofqgegto4u")
+    DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://showflixuser:showflixuser@cluster0.mqv9zew.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     
